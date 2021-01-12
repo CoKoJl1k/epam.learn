@@ -74,8 +74,8 @@ public class Tasks {
         System.out.println("3. Вычислить значение выражения по формуле (все переменные принимают действительные значения) ");
         System.out.println("3. Введите значени x и y в градусах  0 - 360 ");
         // значения в градусах
-        double x = scannerDouble();;
-        double y = scannerDouble();;
+        double x = scannerDouble();
+        double y = scannerDouble();
 
         //перевод в радианы
         double xRad = x * Math.PI / 180.0;
@@ -161,7 +161,7 @@ public class Tasks {
         System.out.println("8.  Найти max{min(a, b), min(c, d)}");
         double a = scannerDouble();
         double b = scannerDouble();
-        double c = scannerDouble();;
+        double c = scannerDouble();
         double d = scannerDouble();
 
         double[] arr= { Math.min(a, b), Math.min(c, d) };
@@ -290,7 +290,7 @@ public class Tasks {
 
         double sum = 0;
         double e = 0.1;
-        double an = 0;
+        double an ;
         int n = 50;
 
         for (int i = 0; i <= n; i++) {
@@ -356,12 +356,12 @@ public class Tasks {
                 }
             }
         }
-
+/*
         String intArrayStringM = Arrays.toString(arrM);
         String intArrayStringN = Arrays.toString(arrN);
         System.out.println( "Первое число содержит цифры"+intArrayStringM);
         System.out.println("Второе число содержит цифры"+intArrayStringN);
-
+*/
     }
 
 
